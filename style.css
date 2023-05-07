@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@400;700&display=swap');
+
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #0f141e;
+  background: rgb(251, 231, 250);
+}
+
+@media (max-width: 650px) {
+  .container{
+    font-size: .8rem;
+    padding: 10px;
+    
+  }
+  .info {
+    display: block;
+    text-align: center;
+  }
+
+}
+
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.info-text {
+  margin: 35px 20px 0;
+}
+
+.avatar {
+  width: 180px;
+  border-radius: 0 25px 0 25px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  margin: 20px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+a:hover {
+  color: rgb(69, 220, 237);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:active {
+  color: rgb(87, 169, 242);
+}
+
+h2 {
+  margin: 10px;
+}
+
+.info-text p {
+  font-style: italic;
+  font-weight: 700;
+  color: gray;
+}
+
+.card {
+  border: 2px solid #e1fbf3;
+  border-radius: 0 25px 0 25px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);  
+}
+
+.hobby {
+  background: #fad3d3;  
+}
+
+.list {
+  padding: 0px 20px;
+}
+
+.list li {
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.work {
+  background: #e5ffe7;
+}
+
+.table {
+  width: 80%;
+}
+
+.table td {
+  background: rgb(230, 230, 230);
+  border-radius: 0 7px 0 7px;
+  padding: 5px;
+}
+
+/* .connect {
+  margin: 0 auto;
+  padding: 5px 20px;
+} */
+@media (max-width: 650px) {
+  /* .form-row {
+   
+  } */
+  .form-row, .form {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+form h2 {
+  margin-left: 20px;
+}
+
+.form-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form-row, .form { 
+  margin-right: 20px;
+  width: 100%;
+}
+ .form:nth-child(2) {
+    margin-right: 0;
+ }
+
+.form label {
+  display: block;
+  font-size: 14px;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 0 5px 0 5px;
+  background: transparent;
+  padding: 5px;
+  font-family: inherit;
+}
+
+.btn {
+  background: rgb(51, 113, 113);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 0 5px 0 5px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: .8;
+}
+
